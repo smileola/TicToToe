@@ -1,0 +1,838 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer Test Cases Click on menu item 1`] = `
+<MuiThemeProvider>
+  <AppDrawer
+    toggle={true}
+  >
+    <Drawer
+      disableSwipeToOpen={false}
+      docked={false}
+      onRequestChange={[Function]}
+      open={null}
+      openSecondary={false}
+      swipeAreaWidth={30}
+      width={200}
+      zDepth={2}
+    >
+      <div>
+        <EventListener
+          onKeyUp={[Function]}
+          target="window"
+        />
+        <Overlay
+          autoLockScrolling={true}
+          onClick={[Function]}
+          show={false}
+          style={
+            Object {
+              "pointerEvents": "none",
+              "zIndex": 1200,
+            }
+          }
+          transitionEnabled={true}
+        >
+          <div
+            onClick={[Function]}
+            style={
+              Object {
+                "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                "height": "100%",
+                "left": "-100%",
+                "muiPrepared": true,
+                "opacity": 0,
+                "pointerEvents": "none",
+                "position": "fixed",
+                "top": 0,
+                "transform": "translateZ(0)",
+                "transition": "left 0ms cubic-bezier(0.23, 1, 0.32, 1) 400ms, opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                "width": "100%",
+                "willChange": "opacity",
+                "zIndex": 1200,
+              }
+            }
+          >
+            <AutoLockScrolling
+              lock={false}
+            />
+          </div>
+        </Overlay>
+        <Paper
+          circle={false}
+          rounded={false}
+          style={
+            Object {
+              "WebkitOverflowScrolling": "touch",
+              "backgroundColor": "#ffffff",
+              "height": "100%",
+              "left": 0,
+              "overflow": "auto",
+              "position": "fixed",
+              "top": 0,
+              "transform": "translate(-210px, 0)",
+              "transition": "transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+              "width": 200,
+              "zIndex": 1300,
+            }
+          }
+          transitionEnabled={true}
+          zDepth={2}
+        >
+          <div
+            style={
+              Object {
+                "WebkitOverflowScrolling": "touch",
+                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                "backgroundColor": "#ffffff",
+                "borderRadius": "0px",
+                "boxShadow": "0 3px 10px rgba(0, 0, 0, 0.16),
+         0 3px 10px rgba(0, 0, 0, 0.23)",
+                "boxSizing": "border-box",
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "Roboto, sans-serif",
+                "height": "100%",
+                "left": 0,
+                "muiPrepared": true,
+                "overflow": "auto",
+                "position": "fixed",
+                "top": 0,
+                "transform": "translate(-210px, 0)",
+                "transition": "transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                "width": 200,
+                "zIndex": 1300,
+              }
+            }
+          >
+            <MenuItem
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              checked={false}
+              desktop={false}
+              disabled={false}
+              focusState="none"
+              insetChildren={false}
+              onClick={[Function]}
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+              targetOrigin={
+                Object {
+                  "horizontal": "left",
+                  "vertical": "top",
+                }
+              }
+            >
+              <ListItem
+                autoGenerateNestedIndicator={true}
+                containerElement="span"
+                disableKeyboardFocus={false}
+                disabled={false}
+                hoverColor="rgba(0, 0, 0, 0.1)"
+                initiallyOpen={false}
+                innerDivStyle={
+                  Object {
+                    "paddingBottom": 0,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                  }
+                }
+                insetChildren={false}
+                leftIcon={null}
+                nestedItems={Array []}
+                nestedLevel={0}
+                onClick={[Function]}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onNestedListToggle={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                open={null}
+                primaryTogglesNestedList={false}
+                role="menuitem"
+                secondaryTextLines={1}
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "cursor": "pointer",
+                    "fontSize": 16,
+                    "lineHeight": "48px",
+                    "minHeight": "48px",
+                    "textAlign": "justify",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+              >
+                <div>
+                  <EnhancedButton
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    role="menuitem"
+                    style={
+                      Object {
+                        "backgroundColor": null,
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "cursor": "pointer",
+                        "display": "block",
+                        "fontSize": 16,
+                        "lineHeight": "48px",
+                        "minHeight": "48px",
+                        "position": "relative",
+                        "textAlign": "justify",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "whiteSpace": "nowrap",
+                      }
+                    }
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      open={null}
+                      role="menuitem"
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "background": "none",
+                          "backgroundColor": null,
+                          "border": 10,
+                          "boxSizing": "border-box",
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "cursor": "pointer",
+                          "display": "block",
+                          "fontFamily": "Roboto, sans-serif",
+                          "fontSize": 16,
+                          "fontWeight": "inherit",
+                          "lineHeight": "48px",
+                          "margin": 0,
+                          "minHeight": "48px",
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "justify",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "verticalAlign": null,
+                          "whiteSpace": "nowrap",
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      <TouchRipple
+                        abortOnScroll={true}
+                        key="touchRipple"
+                      >
+                        <div
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "marginLeft": 0,
+                                "muiPrepared": true,
+                                "paddingBottom": 0,
+                                "paddingLeft": 16,
+                                "paddingRight": 16,
+                                "paddingTop": 0,
+                                "position": "relative",
+                              }
+                            }
+                          >
+                            Light
+                          </div>
+                        </div>
+                      </TouchRipple>
+                    </span>
+                  </EnhancedButton>
+                </div>
+              </ListItem>
+            </MenuItem>
+            <MenuItem
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              checked={false}
+              desktop={false}
+              disabled={false}
+              focusState="none"
+              insetChildren={false}
+              onClick={[Function]}
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+              targetOrigin={
+                Object {
+                  "horizontal": "left",
+                  "vertical": "top",
+                }
+              }
+            >
+              <ListItem
+                autoGenerateNestedIndicator={true}
+                containerElement="span"
+                disableKeyboardFocus={false}
+                disabled={false}
+                hoverColor="rgba(0, 0, 0, 0.1)"
+                initiallyOpen={false}
+                innerDivStyle={
+                  Object {
+                    "paddingBottom": 0,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                  }
+                }
+                insetChildren={false}
+                leftIcon={null}
+                nestedItems={Array []}
+                nestedLevel={0}
+                onClick={[Function]}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onNestedListToggle={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                open={null}
+                primaryTogglesNestedList={false}
+                role="menuitem"
+                secondaryTextLines={1}
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "cursor": "pointer",
+                    "fontSize": 16,
+                    "lineHeight": "48px",
+                    "minHeight": "48px",
+                    "textAlign": "justify",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+              >
+                <div>
+                  <EnhancedButton
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    role="menuitem"
+                    style={
+                      Object {
+                        "backgroundColor": null,
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "cursor": "pointer",
+                        "display": "block",
+                        "fontSize": 16,
+                        "lineHeight": "48px",
+                        "minHeight": "48px",
+                        "position": "relative",
+                        "textAlign": "justify",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "whiteSpace": "nowrap",
+                      }
+                    }
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      open={null}
+                      role="menuitem"
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "background": "none",
+                          "backgroundColor": null,
+                          "border": 10,
+                          "boxSizing": "border-box",
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "cursor": "pointer",
+                          "display": "block",
+                          "fontFamily": "Roboto, sans-serif",
+                          "fontSize": 16,
+                          "fontWeight": "inherit",
+                          "lineHeight": "48px",
+                          "margin": 0,
+                          "minHeight": "48px",
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "justify",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "verticalAlign": null,
+                          "whiteSpace": "nowrap",
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      <TouchRipple
+                        abortOnScroll={true}
+                        key="touchRipple"
+                      >
+                        <div
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "marginLeft": 0,
+                                "muiPrepared": true,
+                                "paddingBottom": 0,
+                                "paddingLeft": 16,
+                                "paddingRight": 16,
+                                "paddingTop": 0,
+                                "position": "relative",
+                              }
+                            }
+                          >
+                            Dark
+                          </div>
+                        </div>
+                      </TouchRipple>
+                    </span>
+                  </EnhancedButton>
+                </div>
+              </ListItem>
+            </MenuItem>
+            <Divider
+              inset={false}
+            >
+              <hr
+                style={
+                  Object {
+                    "backgroundColor": "#e0e0e0",
+                    "border": "none",
+                    "height": 1,
+                    "margin": 0,
+                    "marginLeft": 0,
+                    "marginTop": -1,
+                    "muiPrepared": true,
+                  }
+                }
+              />
+            </Divider>
+            <MenuItem
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              checked={false}
+              desktop={false}
+              disabled={false}
+              focusState="none"
+              insetChildren={false}
+              onClick={[Function]}
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+              targetOrigin={
+                Object {
+                  "horizontal": "left",
+                  "vertical": "top",
+                }
+              }
+            >
+              <ListItem
+                autoGenerateNestedIndicator={true}
+                containerElement="span"
+                disableKeyboardFocus={false}
+                disabled={false}
+                hoverColor="rgba(0, 0, 0, 0.1)"
+                initiallyOpen={false}
+                innerDivStyle={
+                  Object {
+                    "paddingBottom": 0,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                  }
+                }
+                insetChildren={false}
+                leftIcon={null}
+                nestedItems={Array []}
+                nestedLevel={0}
+                onClick={[Function]}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onNestedListToggle={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                open={null}
+                primaryTogglesNestedList={false}
+                role="menuitem"
+                secondaryTextLines={1}
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "cursor": "pointer",
+                    "fontSize": 16,
+                    "lineHeight": "48px",
+                    "minHeight": "48px",
+                    "textAlign": "justify",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+              >
+                <div>
+                  <EnhancedButton
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    role="menuitem"
+                    style={
+                      Object {
+                        "backgroundColor": null,
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "cursor": "pointer",
+                        "display": "block",
+                        "fontSize": 16,
+                        "lineHeight": "48px",
+                        "minHeight": "48px",
+                        "position": "relative",
+                        "textAlign": "justify",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "whiteSpace": "nowrap",
+                      }
+                    }
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      open={null}
+                      role="menuitem"
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "background": "none",
+                          "backgroundColor": null,
+                          "border": 10,
+                          "boxSizing": "border-box",
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "cursor": "pointer",
+                          "display": "block",
+                          "fontFamily": "Roboto, sans-serif",
+                          "fontSize": 16,
+                          "fontWeight": "inherit",
+                          "lineHeight": "48px",
+                          "margin": 0,
+                          "minHeight": "48px",
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "justify",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "verticalAlign": null,
+                          "whiteSpace": "nowrap",
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      <TouchRipple
+                        abortOnScroll={true}
+                        key="touchRipple"
+                      >
+                        <div
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "marginLeft": 0,
+                                "muiPrepared": true,
+                                "paddingBottom": 0,
+                                "paddingLeft": 16,
+                                "paddingRight": 16,
+                                "paddingTop": 0,
+                                "position": "relative",
+                              }
+                            }
+                          >
+                            Game
+                          </div>
+                        </div>
+                      </TouchRipple>
+                    </span>
+                  </EnhancedButton>
+                </div>
+              </ListItem>
+            </MenuItem>
+            <MenuItem
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              checked={false}
+              desktop={false}
+              disabled={false}
+              focusState="none"
+              insetChildren={false}
+              onClick={[Function]}
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+              targetOrigin={
+                Object {
+                  "horizontal": "left",
+                  "vertical": "top",
+                }
+              }
+            >
+              <ListItem
+                autoGenerateNestedIndicator={true}
+                containerElement="span"
+                disableKeyboardFocus={false}
+                disabled={false}
+                hoverColor="rgba(0, 0, 0, 0.1)"
+                initiallyOpen={false}
+                innerDivStyle={
+                  Object {
+                    "paddingBottom": 0,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
+                    "paddingTop": 0,
+                  }
+                }
+                insetChildren={false}
+                leftIcon={null}
+                nestedItems={Array []}
+                nestedLevel={0}
+                onClick={[Function]}
+                onKeyboardFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onNestedListToggle={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                open={null}
+                primaryTogglesNestedList={false}
+                role="menuitem"
+                secondaryTextLines={1}
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "cursor": "pointer",
+                    "fontSize": 16,
+                    "lineHeight": "48px",
+                    "minHeight": "48px",
+                    "textAlign": "justify",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+              >
+                <div>
+                  <EnhancedButton
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    role="menuitem"
+                    style={
+                      Object {
+                        "backgroundColor": null,
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "cursor": "pointer",
+                        "display": "block",
+                        "fontSize": 16,
+                        "lineHeight": "48px",
+                        "minHeight": "48px",
+                        "position": "relative",
+                        "textAlign": "justify",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "whiteSpace": "nowrap",
+                      }
+                    }
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      open={null}
+                      role="menuitem"
+                      style={
+                        Object {
+                          "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                          "background": "none",
+                          "backgroundColor": null,
+                          "border": 10,
+                          "boxSizing": "border-box",
+                          "color": "rgba(0, 0, 0, 0.87)",
+                          "cursor": "pointer",
+                          "display": "block",
+                          "fontFamily": "Roboto, sans-serif",
+                          "fontSize": 16,
+                          "fontWeight": "inherit",
+                          "lineHeight": "48px",
+                          "margin": 0,
+                          "minHeight": "48px",
+                          "muiPrepared": true,
+                          "outline": "none",
+                          "padding": 0,
+                          "position": "relative",
+                          "textAlign": "justify",
+                          "textDecoration": "none",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "verticalAlign": null,
+                          "whiteSpace": "nowrap",
+                        }
+                      }
+                      tabIndex={0}
+                    >
+                      <TouchRipple
+                        abortOnScroll={true}
+                        key="touchRipple"
+                      >
+                        <div
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "marginLeft": 0,
+                                "muiPrepared": true,
+                                "paddingBottom": 0,
+                                "paddingLeft": 16,
+                                "paddingRight": 16,
+                                "paddingTop": 0,
+                                "position": "relative",
+                              }
+                            }
+                          >
+                            Documentation
+                          </div>
+                        </div>
+                      </TouchRipple>
+                    </span>
+                  </EnhancedButton>
+                </div>
+              </ListItem>
+            </MenuItem>
+          </div>
+        </Paper>
+      </div>
+    </Drawer>
+  </AppDrawer>
+</MuiThemeProvider>
+`;
